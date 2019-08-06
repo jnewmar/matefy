@@ -8,4 +8,4 @@ The proposal of the app is help people who wants to practice foreign languages t
 
 And practice converstion using an assyncronous audio chat similar to the WhatsApp.
 
-This app is the prof of the concept.
+This app is a prof of the concept.
