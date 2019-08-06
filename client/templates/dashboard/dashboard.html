@@ -1,0 +1,30 @@
+<template name="Dashboard">
+  {{#with getTitle}}
+  {{> header}}
+  {{/with}}
+ <div class="row">
+        <div class="col s12">
+          <div class="card">
+		        <div class="card-image">
+              <img src="http://graph.facebook.com/{{currentUser.profile.id}}/picture?type=large" alt="" class="responsive-img filter-sepia">
+              <span class="card-title transbox red" style="width:100%" >{{currentUser.profile.name}}</span>
+            </div>
+            <div class="card-content ">
+          
+
+              <p>Choose the topics you want to talk about. You will receive invitations to talk about then.</p>      
+
+
+            </div>
+            {{>myInterests}}
+            
+            <!--class="card-action">
+              <a href="#">This is a link</a>
+              <a href="#">This is a link</a>
+            </div-->
+          </div>
+        </div>
+      </div>
+      {{>butGetMate}}
+      {{footer}}
+</template>

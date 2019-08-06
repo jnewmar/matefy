@@ -1,0 +1,27 @@
+
+.overlay {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        /*background-color: rgba(0,0,0,0.5);*/
+        z-index: 1;
+        background: linear-gradient(rgba(0,0,0,0.0) 35%, rgba(0,0,0,0.5));
+}
+
+.filter-gray {
+  -webkit-filter: grayscale(50%);
+  filter: grayscale(50%);
+}
+
+.filter-sepia {
+  -webkit-filter: sepia(50%);
+  filter: sepia(50%);
+}
+
+.transbox {   
+    background-color: #ffffff;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}

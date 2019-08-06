@@ -1,0 +1,26 @@
+<template name="Notifications">
+  {{#with getTitle}}
+  {{> header}}
+  {{/with}}
+  <div class="row">
+        <div class="col s12">
+          
+            <ul class="collection">
+            {{#each getReceivedNotifications}}
+              <li class="collection-item avatar">
+                <img  src="http://graph.facebook.com/{{fromFid}}/picture?type=large" alt="" class="circle">
+                <span class="title">{{text}}</span>
+                <p>{{ formatTime addedAt  }}</p>
+                <div class="secondary-content">
+                <a href="{{ link}}"  class="secondary-content btn-floating btn-small green" ><i class="mdi-hardware-keyboard-arrow-right"></i></a>
+                </div>
+ 
+              </li>
+            {{/each}}
+            </ul>
+          
+        </div>
+      </div>
+    {{>butGetMate}}
+    {{> footer}}      
+</template>

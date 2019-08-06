@@ -1,0 +1,11 @@
+<template name="myInterests" >
+  <ul class="collection with-header">
+  <li class="collection-header"><h5>Select topics to talk:</h5></li>
+  {{#each myTopics}}              
+    <li class="collection-item red" >     
+        <input type="checkbox" class="filled-in check-topics" id="topic-{{ _id}}" data-topicid={{_id}}  checked="{{hasTopic}}"/>
+        <label for="topic-{{ _id}}">{{name}}</label>
+  </li>
+  {{/each}}
+</ul>
+</template>            

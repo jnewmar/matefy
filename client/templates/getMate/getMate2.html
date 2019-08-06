@@ -1,0 +1,26 @@
+<template name="getMate2">
+  {{#with getTitle}}
+  {{> header}}
+  {{/with}}
+  <div class="row">  
+        <div class="card col s12 m12 l12">        
+            <div class="card-content black-text">
+                <div class="card-image" >
+                  <img class="filter-sepia" src="/image/recorder2.jpg">              
+                </div>
+                <span class="card-title black-text" >Record an introduction</span>  
+                <p>Record an introduction about yourself. Say your name, where are you from. A good presentation will help you find interesting people to talk to you.</p>
+                {{#with record_conf }}
+                <div style="text-align:center;margin-top: 50px;margin-bottom: 30px;">
+                {{>record}}
+                </div>
+                {{/with}}
+            </div>
+            <div class="card-action">
+              <button class="btn" id="but-back">Back</button>
+              <button class="btn" style="display:none;" id="but-get-a-mate" data-topicid="{{ topicId  }}" data-audioid=""  >GET A MATE</button>
+            </div>        
+        </div>
+    </div>
+    {{> footer}}
+</template>

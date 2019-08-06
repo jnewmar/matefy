@@ -1,0 +1,53 @@
+<template name="chatRoom">
+  {{#with getTitle}}
+  {{> header}}
+  {{/with}}
+ <div class="row">
+        <div class="col s12 chatroom">
+          
+            <ul class="collection chatBox">
+              {{#each getListaAudios}}
+                     <li class="collection-item avatar">
+                     {{> chatMessage}}
+                     </li>
+                  {{/each}}
+            </ul>
+          
+        </div>             
+  </div>
+  <div class="row input-group red  lighten-4">
+      <div class="col s12 ">
+          {{#with record_conf }}
+          <div style="text-align:center; ">
+            {{>record}}
+            </div>
+          {{/with}}
+      </div>
+  </div>    
+    {{> footer}}
+</template>
+
+
+<template name="chatMessage">
+       <img  src="http://graph.facebook.com/{{autor.profile.id}}/picture?type=large" alt="" class="circle responsive-img">                
+        <span class="title">{{autor.profile.name}}</span>
+        <p>{{ formatTime metadata.sendAt  }}</p>        
+         {{#if isCordova }}             
+              {{ #if isUploaded  }}
+
+                    <audio  controls id="review_audio" src="{{url}}"></audio>
+
+              {{else}}
+                <audio  controls id="review_audio" src="{{urlAudioGravado}}"></audio>
+              {{/if}}
+          {{else}}    
+              {{ #if isUploaded }}
+
+                    <audio  controls id="review_audio" src="{{url}}"></audio>
+
+              {{else}}
+
+              {{/if}}
+         {{/if}}
+</template>
+

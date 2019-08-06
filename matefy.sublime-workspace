@@ -1,0 +1,528 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "client/templates/record.js",
+			"settings":
+			{
+				"buffer_size": 9600,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server/publish.js",
+			"settings":
+			{
+				"buffer_size": 1701,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/william/Projetos/runMate-master/how-to.txt",
+			"settings":
+			{
+				"buffer_size": 386,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/lib/recordmp3.js",
+			"settings":
+			{
+				"buffer_size": 7973,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/collections/audios.js",
+			"settings":
+			{
+				"buffer_size": 1233,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/templates/chatroom/chatroom.html",
+			"settings":
+			{
+				"buffer_size": 2983,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/templates/chatroom/chatroom.js",
+			"settings":
+			{
+				"buffer_size": 8751,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/william/Projetos/runMate-master/app",
+		"/home/william/Projetos/runMate-master/app/lib",
+		"/home/william/Projetos/runMate-master/app/lib/collections",
+		"/home/william/Projetos/runMate-master/app/server",
+		"/home/william/Projetos/runMate-master/app/server/collections"
+	],
+	"file_history":
+	[
+		"/home/william/Projetos/runMate-master/app/mobile-config.js",
+		"/home/william/.cache/.fr-Gys1A4/app/client/templates/chatroom/chatroom.html",
+		"/home/william/Projetos/runMate-master/app/client/templates/chatroom/chatroom.scss",
+		"/home/william/Projetos/runMate-master/app/lib/collections/audios.js",
+		"/home/william/Projetos/runMate-master/app/server/methods.js",
+		"/home/william/Projetos/runMate-master/how-to.txt",
+		"/home/william/Projetos/runMate-master/app/server/publish.js",
+		"/home/william/Projetos/runMate-master/app/client/templates/chatroom/chatroom.html",
+		"/home/william/Projetos/runMate-master/app/client/lib/common.js",
+		"/home/william/Projetos/runMate-master/app/client/templates/chatroom/chatroom.js",
+		"/home/william/Projetos/runMate-master/app/client/lib/recordmp3.js",
+		"/home/william/Projetos/runMate-master/app/client/templates/record.js",
+		"/home/william/Projetos/runMate-master/app/client/templates/login/login.js",
+		"/home/william/Projetos/runMate-master/app/lib/init.js",
+		"/home/william/Projetos/superangels/client/global.js",
+		"/home/william/Projetos/runMate-master/app/server/globals.js",
+		"/home/william/Projetos/runMate-master/app/lib/routes.js",
+		"/home/william/Projetos/superangels/server/globals.js",
+		"/home/william/Projetos/runMate-master/app/client/templates/login/login.html",
+		"/home/william/Projetos/runMate-master/app/lib/main.js",
+		"/home/william/Projetos/runMate-master/app/settings.json",
+		"/home/william/Projetos/superangels/settings.json",
+		"/home/william/Projetos/nutri/mobile-config.js",
+		"/home/william/Projetos/runMate-master/app/client/templates/TabsPage/tabs/tabs.html",
+		"/home/william/Projetos/superangels/lib/router.js",
+		"/home/william/Projetos/superangels/client/application/header.html",
+		"/home/william/Projetos/matefy_oco/mobile-config.js",
+		"/home/william/Downloads/runMate-master/app/server/methods.js",
+		"/home/william/Downloads/runMate-master/app/server/publish.js",
+		"/home/william/Downloads/runMate-master/app/client/templates/chatroom/chatroom.js",
+		"/home/william/Downloads/runMate-master/app/client/templates/chatroom/chatroom.html",
+		"/home/william/Downloads/runMate-master/app/client/record.js",
+		"/home/william/Downloads/runMate-master/app/client/templates/home/home.html",
+		"/home/william/Downloads/runMate-master/app/client/templates/match_list/match_list.html",
+		"/home/william/Downloads/runMate-master/app/client/head.html",
+		"/home/william/Downloads/runMate-master/app/client/lib/recorder.js",
+		"/home/william/Downloads/runMate-master/app/client/templates/partner/partner.html",
+		"/home/william/Downloads/runMate-master/app/mobile-config.js",
+		"/home/william/Downloads/runMate-master/app/client/templates/partner/partner.scss",
+		"/home/william/Downloads/runMate-master/app/lib/collections/audios.js",
+		"/home/william/Downloads/runMate-master/app/client/templates/login/login.scss",
+		"/home/william/Downloads/runMate-master/app/client/templates/TabsPage/tabs/tabs.html",
+		"/home/william/Downloads/runMate-master/app/client/stylesheets/main.scss",
+		"/home/william/Downloads/runMate-master/app/server/globals.js",
+		"/home/william/Downloads/runMate-master/app/client/templates/chatroom/chatroom.scss",
+		"/home/william/Downloads/runMate-master/app/server/bootstrap.js",
+		"/home/william/Downloads/runMate-master/app/client/templates/layouts/master_layout/master_layout.html",
+		"/home/william/Downloads/runMate-master/app/client/templates/layouts/master_layout/master_layout.js",
+		"/home/william/Downloads/runMate-master/app/client/templates/login/login.html",
+		"/home/william/Downloads/runMate-master/app/packages/meteor-swing/package.js",
+		"/home/william/Projetos/audiochat/client/templates/show_video.js",
+		"/home/william/Projetos/audiochat/client/templates/record.js",
+		"/home/william/Projetos/audiochat/public/recorderWorker.js",
+		"/home/william/Projetos/audiochat/server/user.js",
+		"/home/william/Projetos/audiochat/client/layout.html",
+		"/home/william/Projetos/superangels/client/application/footer.js",
+		"/home/william/Projetos/superangels/.meteor/packages",
+		"/home/william/Projetos/recorder/client/show_video.js",
+		"/home/william/Projetos/recorder/client/record.js",
+		"/home/william/Projetos/recorder/client/templates.html",
+		"/home/william/Projetos/recorder/client/layout.html",
+		"/home/william/Projetos/recorder/public/recorderWorker.js",
+		"/home/william/Projetos/recorder/server/publishing.js",
+		"/home/william/Projetos/matefy/init.js",
+		"/home/william/Projetos/matefy/client/teste.js",
+		"/home/william/Projetos/matefy/client/matefy.html",
+		"/home/william/Projetos/matefy/client/layout.js",
+		"/home/william/Projetos/matefy/client/layout.html",
+		"/home/william/Projetos/matefy/lib/router.js",
+		"/home/william/Projetos/matefy/client/matefy.js",
+		"/home/william/Projetos/superangels/client/application/home2.js",
+		"/home/william/Projetos/matefy/client/teste.html",
+		"/home/william/Projetos/matefy/.meteor/local/build/programs/web.browser/packages/universe_audio-recorder.js",
+		"/home/william/Projetos/superangels/client/application/cad_fornecedor.js",
+		"/home/william/Projetos/matefy/.meteor/local/build/programs/server/packages/universe_audio-recorder.js",
+		"/home/william/Projetos/matefy/.meteor/local/build/programs/server/packages/universe_audio-recorder.js.map",
+		"/home/william/Projetos/matefy/.meteor/packages",
+		"/home/william/Projetos/matefy/matefy.sublime-project"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"recorder",
+			"log.innerHTML",
+			"__log",
+			"src",
+			"alert",
+			"BinaryFileReader",
+			"#ffb600",
+			"completeRecording",
+			"binaryFeatures",
+			"client",
+			"wstest",
+			"var wstest = new WebSocket('ws://null');",
+			"ws",
+			"ws:"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"console.log"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "client/templates/record.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9600,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1266,
+								1266
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "server/publish.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1701,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/william/Projetos/runMate-master/how-to.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								274,
+								274
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "client/lib/recordmp3.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4202,
+								4202
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3870.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "lib/collections/audios.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								451,
+								451
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "client/templates/chatroom/chatroom.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2983,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1918,
+								1918
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 478.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "client/templates/chatroom/chatroom.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8751,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8655,
+								8655
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4265.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "matefy.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 284.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

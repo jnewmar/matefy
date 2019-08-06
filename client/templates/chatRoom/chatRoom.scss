@@ -1,0 +1,104 @@
+.chatroom {
+  height: 100%;
+  position: relative;
+}
+
+
+.chatBox{
+
+  height: calc( 100% - 100px );
+  overflow-y: auto;
+}
+
+.input-group{
+
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+
+  left: 0;
+  right: 0;
+  bottom: -20px;
+  padding: 8px;
+  
+  height: 100px;
+
+
+
+}
+
+
+.mine {
+  position: relative;
+  text-align: left;
+  .bubble {
+    float: right;
+    background: #ffd169;
+
+    color: #222;
+    letter-spacing: 0.05rem;
+    font-family: SourceSansPro-Regular;
+
+    position: relative;
+    max-width: 50vw;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    padding-left: 16px;
+    -moz-border-radius:    12px;
+    -webkit-border-radius: 12px;
+    border-radius:         12px;
+
+    margin: 8px 16px 8px 16px;
+  }
+  .bubble:before {
+    border-left: 12px solid #ffd169;//was not defined with .bubble
+    left: 100%;
+    // border-right: 12px solid #000;
+
+    content:"";
+    position: absolute;
+    bottom: 10px;
+    width: 0;
+    height: 0;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+  }
+}
+
+.notmine {
+  text-align: left;
+  .bubble {
+    float: left;
+    background: #c1e0fe;
+
+    color: #222;
+    letter-spacing: 0.05rem;
+    font-family: SourceSansPro-Regular;
+
+    position: relative;
+    max-width: 50vw;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    padding-left: 16px;
+    -moz-border-radius:    12px;
+    -webkit-border-radius: 12px;
+    border-radius:         12px;
+
+    margin: 8px 16px 8px 16px;
+  }
+  .bubble:before {
+    border-right: 12px solid #c1e0fe;//was not defined with .bubble
+    right: 100%;
+
+    content:"";
+    position: absolute;
+    bottom: 10px;
+    width: 0;
+    height: 0;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+  }
+
+}

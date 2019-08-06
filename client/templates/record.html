@@ -1,0 +1,25 @@
+<template name="record">
+    
+                  <a id="but-start-record" class="center-align btn-floating btn-large red darken-4"
+                   data-topicid="{{ topicId  }}"
+                   data-typerecord="{{typeRecord}}" 
+                   data-to="{{to}}" 
+                   ><i class="mdi-av-mic"></i></a>
+                  <a id="but-play-record" class="center-align btn-floating btn  red  darken-3"  style="display:none;" ><i class="mdi-av-play-arrow"></i></a>
+                  <div id="box-timer"   style="display:none; ">Recording ...</div>
+                  <div id="box-load"   style="display:none; ">
+                    <div class="preloader-wrapper active">
+                      <div class="spinner-layer spinner-red-only">
+                        <div class="circle-clipper left">
+                          <div class="circle"></div>
+                        </div><div class="gap-patch">
+                          <div class="circle"></div>
+                        </div><div class="circle-clipper right">
+                          <div class="circle"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    
+
+</template>

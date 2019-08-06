@@ -1,0 +1,51 @@
+<template name="Invitations">
+  {{#with getTitle}}
+  {{> header}}
+  {{/with}}
+ <div class="row">
+        <div class="col s12">
+          
+            <ul class="collection">
+            {{#each getReceivedInvitations}}
+              <li class="collection-item avatar">
+                <img  src="http://graph.facebook.com/{{objTo.profile.id}}/picture?type=large" alt="" class="circle responsive-img">
+                
+                <span class="title">{{objTo.profile.name}}</span>
+                <p>Topic: {{ objTopic.name }}</p>
+                {{ formatTime data_invitation  }}
+                {{#with objAudio }}
+                   {{#if isCordova }}             
+                      {{ #if isUploaded }}
+                        <audio  controls id="review_audio" src="{{url}}"></audio>
+                        {{ saveAudio audioId url }}
+                      {{else}}
+                        <audio  controls id="review_audio" src="{{urlAudioGravado}}"></audio>
+                      {{/if}}                  
+                  {{else}}    
+                      {{ #if isUploaded }}
+                        <audio  controls id="review_audio" src="{{url}}"></audio>
+                        {{ saveAudio audioId url }}
+                      {{else}}
+
+                      {{/if}}
+                 {{/if}}
+               {{/with}}
+                <div class="secondary-content">
+                  <p>
+ 
+                 <a  id="but-accept-{{ _id }}" class="btn-floating btn-small green accept" data-invitationid={{_id}} data-to="{{objTo._id}}"><i class="mdi-navigation-check"></i></a>
+
+ <!--a  id="but-refuse-{{ _id }}" class="btn-floating btn-small red refuse" data-invitationid={{_id}} data-to="{{objTo._id}}" ><i class="mdi-navigation-close"></i></a-->
+
+                  </p>
+
+                </div>
+              </li>
+            {{/each}}
+            </ul>
+          
+        </div>
+      </div>
+    {{>butGetMate}}
+    {{> footer}}     
+</template>

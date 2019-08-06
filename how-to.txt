@@ -1,0 +1,5 @@
+cd /home/william/Projetos/runMate-master/app
+meteor build ../../build/matefy --server matefy.meteor.com
+cd /home/william/Projetos/build/matefy/android/project/build/outputs/apk
+jarsigner -digestalg SHA1 -tsa http://timestamp.digicert.com android-release-unsigned.apk matefy
+~/.meteor/android_bundle/android-sdk/build-tools/21.0.0/zipalign 4  android-release-unsigned.apk  matefy.0.4.apk
